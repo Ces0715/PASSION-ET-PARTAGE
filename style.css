@@ -9,6 +9,9 @@ header {
     width:100%;
     font-size: 20px;  
     color: #5c5d5f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .logo{
@@ -20,6 +23,8 @@ section{
     display: flex;
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 186px;
+    height:2000px;
 }
 
 .photos{
@@ -34,7 +39,8 @@ section{
     margin-left: 5px;
     margin-right: 5px;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 0px;
+    width:90%;
 }
 
 #footer {
