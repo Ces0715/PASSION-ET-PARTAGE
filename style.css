@@ -8,8 +8,8 @@ p{
 
 section {
     height: 2000px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 header {
@@ -36,11 +36,17 @@ a {
     margin-top: 50px;
 }
 
+#plats{
+    display: flex;
+    height:500px;
+}
+
 .plats {
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
 }
+
 
 #chef h2 {
     color: #5c5d5f;
@@ -63,7 +69,8 @@ h3 {
 }
 
 .text{
-    margin-right: 20px;
+    margin-right: 100px;
+    width:800px;
 }
 
 .photo{
