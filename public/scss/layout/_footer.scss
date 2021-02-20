@@ -1,0 +1,32 @@
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #fe8124;
+    color: #5c5d5f;
+    & p{
+        margin-top: 10px;
+    }
+}
+
+
+
+.mentions a {
+    color: #5c5d5f;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact a {
+    color: #5c5d5f;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
